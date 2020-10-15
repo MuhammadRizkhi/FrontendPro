@@ -1,0 +1,207 @@
+@media (max-width: 1000px) {
+    /*Ficri Hanip*/
+    .container {
+        width: 100%`;   
+    }
+
+    .head-list {
+        display: none;
+    }
+
+    .tiga {
+        display: block;
+        padding: 25px 25px 0 0;
+    }
+
+    /*Muhammad Rizkhi*/
+    .top {
+        width: 100%;
+    }
+
+    .top-two {
+        float:left;
+        width:35%;
+    }
+
+    .top-two h1 {
+        font-size: 20px;
+    }
+
+    .tools-one {
+        padding: 5px 80px 5px 80px;
+        font-size: 10px;
+    }
+
+    .top-three {
+        float: right;
+        margin-top:150px;
+        margin-right: 70px;
+    }
+    
+    img {
+        width: 280px;
+    }
+
+    /*Elfira Lutfia*/
+    .mid {
+        height: 600px;
+    }
+
+    .lesson{
+		flex-wrap:wrap;
+		margin:0px 40px;
+	}
+
+	.article{
+		width: 40%;
+		margin-bottom:40px;
+	}
+
+	.mid-text{
+		padding: 40px;
+    }
+    
+    /*Aviza Anandya*/
+    .content-bottom {
+        margin-top: 100px;
+    }
+
+    .contain{
+        height:100%;
+        width:100%;
+    }
+    
+    .headline{
+        margin:30px 100px 60px;
+        font-size: 40px;
+    }
+    
+    .profil{
+        width:50%;
+    }
+    
+    .profil img {
+        width:50%;
+    }
+    
+    .fh{
+        width: 100%
+    }
+    
+    .fh img{
+         width:27%;
+    }
+    
+    .profil {
+        padding-bottom: 40px;
+    }
+
+    /*Rudi Haryanto*/
+    footer {
+        width: 100%;
+        margin-top: 600px;
+    }
+
+    .footer-info {
+        height: 300px;
+    }
+
+
+
+}
+
+@media (max-width:670px) {
+    /*Ficri Hanip*/
+    .head-list {
+        display: none;
+    }
+
+    .tiga {
+        display: block;
+        padding: 25px 25px 0 0;
+    }
+
+    /*Muhammad Rizkhi*/
+    .top {
+        width: 100%;
+        height: 700px;
+        margin: 0 auto;
+
+    }
+
+    .top-two {
+        width:100%;
+        padding: 40px 0 30px 80px;
+        width: 70%;
+        font-size: 10px;
+        margin-top: 70px;
+    }
+
+    .top-two h1 {
+        font-size: 18px;
+    }
+
+    .top-three {
+        float:none;
+        padding-left: 70px;
+    }
+
+    img {
+        width: 250px;
+    }
+    
+    /*Elfira Lutfia*/
+    .lesson{
+		flex-direction:column;
+		margin:0px 20px;
+	}
+
+	.article{
+		width: 90%;
+		margin-bottom:20px;
+    }
+    
+    /*Aviza Anandya*/
+    .contain {
+        margin-top: 400px;
+    }
+
+    .profil{
+        width: 100%;
+	}
+
+	.fh img{
+		width:47%;
+	}
+
+	.headline{
+		font-size: 50px;
+		margin-top: 50px;
+    }
+
+    /*Rudi Haryanto*/
+    footer {
+        width: 100%;
+        margin-top: 1400px;
+    }
+
+    .footer_info {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer_logo {
+        width: 100%;
+    }
+    .footer_about {
+        width: 100%;
+        text-align: center;
+    }
+    .footer_copyright {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_credit {
+        font-size: 25px;
+    }
+}
