@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Ficri Hanip*/
+.container {
+    width: 100%;
+    background-color: #f6f5f1;
+    height: 80px;
+    position: fixed;
+}
+
+.head-logo {
+    margin-left: 20px;
+}
+.head-logo a{
+    line-height: 80px;
+    font-size: 32px;
+    display: inline;
+    float: left;
+    font-weight: normal;
+    font-family: "Sofia";
+    text-decoration: none;
+    color: #a58e72;
+}
+
+.head-list {
+    /* border: 1px solid black; */
+    margin-right: 20px;
+}
+.head-list li {
+    list-style-type: none;
+    float: right;
+    color: #a58e72;
+    display: inline-block;
+    font-family: "Capriola";
+    /* border: 2px solid red; */
+    /* margin-left: 20px; */
+
+}
+
+.head-list a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 80px;
+    color: #a58e72;
+    padding: 0 40px;
+    font-size: 1 em;
+    opacity: 0.5;
+}
+
+.head-list a:hover {
+    /* background-color: yellow; */
+    /* text-decoration: 2px underline #a58e72; */
+    opacity: 1.0;
+}
+
+.tiga {
+    color: #a58e72;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+
+/*Muhammad Rizkhi*/
+/*panjang dan lebar top*/
+.top {
+    width: 100%;
+    height: 550px;
+    display:inline-block;
+    background-color: #f6f5f1;
+}
+
+/*text di top*/
+.top-two {
+    width: 35%;
+    font-size: 20px;
+    color: #A58E72;
+    float:left;
+    padding-left: 100px;
+    padding-top: 150px;
+    font-family: "Capriola";
+}
+
+.top-two p {
+    margin-top: 10px;
+    font-size : 18px;
+}
+
+
+/*tools border*/
+.tools {
+    margin-top: 20px;
+}
+
+.tools-one {
+    background-color: #A58E72;
+    text-decoration: none;
+    color:#f6f5f1;
+    padding: 8px 150px 8px 150px;
+    border-radius : 10px;
+    display: inline-block;
+    font-family: "Capriola";
+}
+
+
+/*ilustrasi*/
+.top-three {
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-family: "Capriola";
+}
+
+img {
+    width: 400px;
+}
+/*Elfira Lutfia*/
+body{
+    font-family: "Capriola";
+    width: 100%;
+}
+
+.mid {
+    height: 400px;
+    background-color:white;
+}
+
+.lesson {
+   display: flex;
+}
+
+.mid-text {
+    padding-top: 30px;
+    text-align: center;
+    margin:0;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    letter-spacing: 2px;
+    color: #A58E72;
+}
+
+.article {
+    width: 25%;
+    float:left;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.article:hover {
+    position: relative;
+    top:20px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.article h3 {
+    text-align: center;
+    padding : 10px 10px;
+    color: #A58E72;
+}
+
+.article p {
+    padding: 15px;
+    font-size: 12px;
+    color: #A58E72; 
+}
+
+.article img {
+    width: 40%;
+}
+
+.HTML {
+    margin-bottom: 10px;
+}
+
+.JS {
+    margin-bottom: 18px;
+}
+/*Aviza Anandya*/
+.content-bottom{
+	height: 500px;	
+}
+
+.headline{
+	letter-spacing: 5px;
+	font-weight: normal;
+	margin: 30px 50px 90px;
+	padding-bottom: 50px;
+	font-family: 'Capriola', sans-serif;
+	border-bottom: 1px solid #cfbaa1;
+	color: #A58E72;
+
+}
+
+.content-bottom {
+    height: 600px;
+}
+
+.contain{
+    width: 100%;
+    height: 700px;
+  	margin: 0 auto;
+  	height:100%;
+  	text-align: center;
+}
+
+.profil{
+	float:left;
+	width:20%;
+	text-align: center;
+}
+
+.profil img{
+	width:65%;
+}
+
+.profil h4{
+	font-weight: normal;
+	font-family: 'Capriola', sans-serif;
+	font-size: 19px;
+	margin:15px 0px 10px 0px;
+	color: #A58E72;
+
+}
+
+.desc{
+	font-family: 'Capriola', sans-serif;
+	font-size: 15px;
+	margin:0px;
+	color: #9AA5A7;
+}
+
+.clear{
+	clear: left;
+}
+
+/*Rudi Haryanto*/
+footer {
+    width: 100%;
+}
+
+footer li {
+    list-style: none;
+    padding: 5px;
+}
+.footer_info {
+    display: flex;
+    background-color: #f6f5f1;
+}
+.footer_logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.footer_logo h3 {
+    font-size: 200%;
+    color: #A58E72;
+    font-weight: bold;
+}
+.footer_about {
+    width: 25%;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.footer_about h4 {
+    color:#A58E72;
+    font-size: 125%;
+}
+.footer_about ul {
+    padding-left: 0px;
+}
+.footer_about li {
+    list-style-position: inside;
+    color: #A58E72;
+}
+.footer_copyright {
+    width: 25%;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.footer_copyright h4 {
+    color: #A58E72;
+    font-size: 125%;
+}
+.footer_copyright ul {
+    padding-left: 0px;
+}
+.footer_copyright li {
+    list-style-position: inside;
+    color:#A58E72;
+}
+.footer_credit p {
+    margin: 0 auto;
+    padding: 10px 0px;
+    text-align: center;
+    color: #A58E72;
+    text-align: center;
+    background-color:#f6f5f1;
+}
